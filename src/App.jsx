@@ -22,6 +22,8 @@ function App() {
             <button>Reset</button>
             <br />
             <br />
+
+            <p>Seconds: </p>
         </main>
     )
 }
