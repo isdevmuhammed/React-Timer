@@ -27,7 +27,11 @@ function App() {
     }
 
     const resetTimer = () => {
-        
+        stopTimer();
+        if(seconds) {
+            renders.current = 0;
+            setSeconds(0)
+        }
         inputRef.current.focus();
     }
 
