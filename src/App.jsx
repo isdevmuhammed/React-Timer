@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react"
+import { useRef, useState } from "react"
 
 function App() {
     const [randomInput, setRandomInput] = useState('')
     const [seconds, setSeconds] = useState(0)
-    
+
 
 
     return (
