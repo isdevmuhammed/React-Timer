@@ -18,6 +18,7 @@ function App() {
     return (
         <main className="App">
             <input type="text"
+            ref={inputRef}
                 required
                 value={randomInput}
                 placeholder="type anything"
