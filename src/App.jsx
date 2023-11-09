@@ -36,7 +36,7 @@ function App() {
     }
 
     const handleInputChange = (e) => {
-        setRandomInput(e.target.value)
+        setRandomInput(e.target.value);
 
         renders.current++
     }
