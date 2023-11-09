@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 function App() {
     const [randomInput, setRandomInput] = useState('')
-    
+    const [seconds, setSeconds] = useState(0)
 
 
     return (
