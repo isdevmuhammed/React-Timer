@@ -7,6 +7,12 @@ function App() {
     const renders = useRef(0)
 
     const inputRef = useRef()
+
+    const timerId = useRef()
+
+    const startTimer = () => {
+        
+    }
     
     const handleInputChange = (e) => {
         setRandomInput(e.target.value)
@@ -27,7 +33,7 @@ function App() {
                 placeholder="type anything"
                 onChange={handleInputChange}
             />
-            <p>Renders: <code>{randomInput || '...'}</code></p>
+            <p>Renders: <code>{renders.current || '...'}</code></p>
             <br />
             <br />
             <section>
