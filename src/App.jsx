@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react"
 
 function App() {
-
-  const [userInput, setUserInput] = useState("")
   const [randomInput, setRandomInput] = useState('')
 
 
