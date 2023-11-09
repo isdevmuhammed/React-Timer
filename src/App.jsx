@@ -24,6 +24,11 @@ function App() {
             <br />
 
             <p>Seconds: </p>
+
+            <br />
+            <br />
+
+            <p>{randomInput}</p>
         </main>
     )
 }
