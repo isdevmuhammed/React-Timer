@@ -19,7 +19,8 @@ function App() {
                 <button>Stop</button>
                 <button>Start</button>
             </section>
-            <button></button>
+            <button>Reset</button>
+            
         </main>
     )
 }
