@@ -43,6 +43,7 @@ button {
   width: 150px;
   padding-inline: 8px;
   padding-block: 8px;
+  box-shadow: rgba(195, 195, 195, 0.3);
   background: #fff;
   margin: 0.25em;
   border-radius: 0.5em;
