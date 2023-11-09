@@ -22,6 +22,12 @@ function App() {
     const stopTimer = () => {
         clearInterval(timerId.current)
         timerId.current = 0
+
+        inputRef.current.focus()
+    }
+
+    const resetTimer = () => {
+        clearInterval(timerId.current)
     }
 
     const handleInputChange = (e) => {
@@ -51,7 +57,7 @@ function App() {
                 <button onClick={stopTimer}>Stop</button>
                 <button onClick={startTimer}>Start</button>
             </section>
-            <button>Reset</button>
+            <button onClick={resetTimer}>Reset</button>
             <br />
             <br />
 
