@@ -16,7 +16,7 @@ function App() {
             <br />
             <br />
             <section>
-                <button></button>
+                <button>Stop</button>
             </section>
         </main>
     )
