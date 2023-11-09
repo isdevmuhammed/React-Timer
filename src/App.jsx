@@ -28,7 +28,7 @@ function App() {
 
     const resetTimer = () => {
         stopTimer();
-        if(seconds) {
+        if (seconds) {
             renders.current = 0;
             setSeconds(0)
         }
@@ -36,7 +36,7 @@ function App() {
     }
 
     const handleInputChange = (e) => {
-        setRandomInput(e.target.value);
+        setRandomInput(e.target.value)
 
         renders.current++
     }
