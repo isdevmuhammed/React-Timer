@@ -13,6 +13,8 @@ function App() {
                 onChange={e => setRandomInput(e.target.value)}
             />
             <p>Renders: <code>{randomInput || '...'}</code></p>
+            <br />
+            <br />
         </main>
     )
 }
