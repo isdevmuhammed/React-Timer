@@ -22,6 +22,7 @@ function App() {
                 required
                 value={randomInput}
                 placeholder="type anything"
+                onChange={handleInputChange}
             />
             <p>Renders: <code>{randomInput || '...'}</code></p>
             <br />
