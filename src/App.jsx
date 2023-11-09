@@ -7,7 +7,7 @@ function App() {
     const renders = useRef(0)
     
     const handleInputChange = (e) => {
-        
+        setRandomInput(e.target.value)
     }
 
 
