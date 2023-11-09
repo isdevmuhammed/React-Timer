@@ -19,7 +19,7 @@ function App() {
         inputRef.current.focus()
     }
 
-    const stopInterval = () => {
+    const stopTimer = () => {
         clearInterval(timerId.current)
         timerId.current = 0
     }
@@ -48,7 +48,7 @@ function App() {
             <br />
             <section>
                 {/* <button onClick={focusOnInput}>Focus</button> */}
-                <button onl>Stop</button>
+                <button onClick={stopTimer}>Stop</button>
                 <button onClick={startTimer}>Start</button>
             </section>
             <button>Reset</button>
