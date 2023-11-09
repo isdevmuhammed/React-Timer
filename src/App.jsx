@@ -13,7 +13,7 @@ function App() {
                 placeholder="type anything"
                 onChange={e => setRandomInput(e.target.value)}
             />
-            <p>Result: <code>{randomInput || '...'}</code></p>
+            <p>Renders: <code>{randomInput || '...'}</code></p>
         </main>
     )
 }
