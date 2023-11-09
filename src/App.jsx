@@ -31,7 +31,7 @@ function App() {
             <br />
             <br />
             <section>
-                <button></button>
+                <button>Focus</button>
                 <button>Stop</button>
                 <button>Start</button>
             </section>
