@@ -5,6 +5,8 @@ function App() {
     const [seconds, setSeconds] = useState(0)
 
     const renders = useRef(0)
+
+    const inputRef = useRef()
     
     const handleInputChange = (e) => {
         setRandomInput(e.target.value)
