@@ -6,7 +6,6 @@ function App() {
 
     return (
         <main className="App">
-            <label>Random Input:</label>
             <input type="text"
                 required
                 value={randomInput}
