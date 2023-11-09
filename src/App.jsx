@@ -13,9 +13,11 @@ function App() {
     const startTimer = () => {
         timerId.current = setInterval(() => {
             renders.current++
-        })
+
+            setSeconds(prev => prev + 1)
+        }, 1000)
     }
-    
+
     const handleInputChange = (e) => {
         setRandomInput(e.target.value)
 
@@ -29,7 +31,7 @@ function App() {
     return (
         <main className="App">
             <input type="text"
-            ref={inputRef}
+                ref={inputRef}
                 required
                 value={randomInput}
                 placeholder="type anything"
