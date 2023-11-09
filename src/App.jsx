@@ -15,6 +15,9 @@ function App() {
             <p>Renders: <code>{randomInput || '...'}</code></p>
             <br />
             <br />
+            <section>
+                
+            </section>
         </main>
     )
 }
