@@ -13,7 +13,6 @@ function App() {
                 required
                 value={randomInput}
                 placeholder="type anything"
-                onChange={e => setRandomInput(e.target.value)}
             />
             <p>Renders: <code>{randomInput || '...'}</code></p>
             <br />
