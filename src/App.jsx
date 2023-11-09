@@ -6,16 +6,6 @@ function App() {
 
   return (
     <main className="App">
-        <label>Fibonacci Sequence:</label>
-        <input type="text"
-          placeholder="position"
-          value={userInput}
-          onChange={e => setUserInput(e.target.value)}
-          required
-        />
-        <p>Number: <code>{fibNumber || 'You may endup stuck 🙂'}</code></p>
-        <br />
-        <br />
         <label>Random Input:</label>
      <input type="text" 
      required
