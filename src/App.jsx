@@ -27,7 +27,10 @@ function App() {
     }
 
     const resetTimer = () => {
-        clearInterval(timerId.current)
+        clearInterval(timerId.current);
+    timerId.current = 0;
+    setSeconds(0);
+    inputRef.current.focus();
     }
 
     const handleInputChange = (e) => {
