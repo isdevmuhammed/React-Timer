@@ -1,21 +1,21 @@
 import { useEffect, useState } from "react"
 
 function App() {
-  const [randomInput, setRandomInput] = useState('')
+    const [randomInput, setRandomInput] = useState('')
 
 
-  return (
-    <main className="App">
-        <label>Random Input:</label>
-     <input type="text" 
-     required
-     value={randomInput}
-     placeholder="type anything"
-     onChange={e=>setRandomInput(e.target.value)}
-     />
-     <p>Result: <code>{randomInput || '...'}</code></p>
-    </main>
-  )
+    return (
+        <main className="App">
+            <label>Random Input:</label>
+            <input type="text"
+                required
+                value={randomInput}
+                placeholder="type anything"
+                onChange={e => setRandomInput(e.target.value)}
+            />
+            <p>Result: <code>{randomInput || '...'}</code></p>
+        </main>
+    )
 }
 
 export default App
