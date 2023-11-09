@@ -11,7 +11,9 @@ function App() {
     const timerId = useRef()
 
     const startTimer = () => {
-        
+        timerId.current = setInterval(() => {
+            renders.current++
+        })
     }
     
     const handleInputChange = (e) => {
