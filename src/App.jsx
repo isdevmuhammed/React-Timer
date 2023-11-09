@@ -20,7 +20,8 @@ function App() {
                 <button>Start</button>
             </section>
             <button>Reset</button>
-            
+            <br />
+            <br />
         </main>
     )
 }
