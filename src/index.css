@@ -43,6 +43,7 @@ button {
   width: 150px;
   padding-inline: 8px;
   padding-block: 8px;
+  background: #fff;
   margin: 0.25em;
   border-radius: 0.5em;
   display: grid;
